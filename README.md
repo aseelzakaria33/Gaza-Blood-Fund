@@ -1,2 +1,2 @@
-# Gaza-Blood-Fund
-Gaza Blood Bank Web Management System
+# Gaza-Blood
+gaza blood fund

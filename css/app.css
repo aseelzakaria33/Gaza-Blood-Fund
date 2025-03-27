@@ -1,0 +1,92 @@
+:root {
+  --background-color: #eccece;
+  --text-color: #000;
+  --active-color: #A11717;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl; /* النص يكون من أعلى لأسفل */
+  /* text-orientation: upright; يجعل الأحرف مستقيمة */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background-color:white!important;
+}
+
+header {
+  /* UI Properties */
+  background: var(--background-color);
+}
+
+.logo {
+  height: 54px;
+}
+
+a {
+  color: var(--text-color) !important;
+}
+
+.nav-pills .nav-link {
+  font-weight: bold;
+}
+
+.nav-pills .nav-link.active {
+  background: transparent !important;
+  color: var(--active-color) !important;
+}
+
+.carousel-indicators [data-bs-target]{
+  width: 14px !important;
+  border-radius: 50%;
+  height: 14px !important;
+}
+
+.carousel-indicators [data-bs-target].active{
+  background-color: var(--active-color) !important;
+}
+.colorh2{
+  background-color: #C89393 !important ;
+}
+.colorh1{
+  color: var(--active-color) !important;
+}
+footer {
+	background: #A11717;
+
+	/* padding: 50px ; */
+}
+.email-color{
+  color: #A11717 !important ;
+}
+.colorh3{
+  color:var(--active-color) ;
+}
+.formhome{
+  align-items: center;
+  justify-content: space-between;
+
+ }
+ .size-blog{
+  height: 300px !important;
+ }
+ .img-type{
+  height: 150px;
+   max-width:fit-content;
+ }
+ .list-icon{
+  width: 64px;
+  height: 64px;
+ }
+ .section{
+  margin-bottom: 120px;
+ }
+ .section-information{
+
+  background-image: url(../section-icon-top.png), url(../section-icon-bottom.png);
+  background-repeat: no-repeat, no-repeat;
+  /* background-position: right top, left bottom; */
+  background-position: calc(100% - 153px) 48px, 154px calc(100% - 0px);
+  background-size: 144px, 97px;
+
+ }
